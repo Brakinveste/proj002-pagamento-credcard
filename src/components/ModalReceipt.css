@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.modalRec{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 12;
+	top: 0vh;
+	left: 0vh;
+	background: rgba(0, 0, 0, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.containerRec{
+	display: flex;
+	height: auto;
+	width: 400px;
+	padding: 0px;
+	background: linear-gradient(45deg, #330DB9, #C066C0);
+	flex-direction: column;
+	border: 1px solid #ffffff;
+	border-radius: 0px 0px 25px 25px;
+	align-items: center;
+}
+.rec-header {
+	display: flex;
+	text-align: center;
+	padding: 15px 0px;
+	background: #171110;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	color: #eee;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-phrase {
+	font-weight: 700;
+	color:  #eee;
+	display: flex;
+	flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalRec-content{
+	padding-top: 12px;
+	text-align: center;
+	width: auto;
+	height: 30px;
+	font-size: 16px;
+	color: #eee;
+	display: flex;
+    align-items: center;
+}
+
+.close-btn{
+	margin: 20px 0 20px 0;
+	background: #fff;
+	border: 1px solid #000000;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000000;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.close-btn:hover{
+	background: #171110;
+	color: #eee;
+}
