@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import {useState} from "react"
 import "./ModalForm.css"
 import axios from "axios"
 import CurrencyInput from "react-currency-masked-input"
