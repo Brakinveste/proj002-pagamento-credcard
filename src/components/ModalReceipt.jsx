@@ -1,4 +1,4 @@
-
+import React from 'react';
 import "./ModalReceipt.css"
 const ModalReceipt = ({onClose = () =>{}, status}) =>{
 	let cond

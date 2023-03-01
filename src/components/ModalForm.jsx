@@ -1,3 +1,4 @@
+import React from 'react';
 import {useState} from "react"
 import "./ModalForm.css"
 import axios from "axios"
@@ -41,7 +42,7 @@ const ModalForm = ({selectedUser, setSelectedUser = () => {}, selectedId, setSel
 				setTimeout(() => setIsModalRecVisible(false), 4000)
 				setTimeout(() =>setSelectedUser(''), 4000)
 				setTimeout(() =>setSelectedId(''), 4000)
-
+				console.log(addPost)
 			})
 			.catch(()=>{
 				status = false
